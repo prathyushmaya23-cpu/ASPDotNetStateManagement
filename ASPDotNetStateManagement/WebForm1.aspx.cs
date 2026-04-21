@@ -20,10 +20,13 @@ namespace ASPDotNetStateManagement
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            int count = (int)ViewState["Clickscount"];
+            int count = 0;
             count++;
-            ViewState["Clickscount"] = count;
-            Label1.Text = "Click count" + count;
+            Label1.Text = "Count Clicks " + count;
+            //int count = (int)ViewState["Clickscount"];
+            //count++;
+            //ViewState["Clickscount"] = count;
+            //Label1.Text = "Click count" + count;
         }
     }
 }

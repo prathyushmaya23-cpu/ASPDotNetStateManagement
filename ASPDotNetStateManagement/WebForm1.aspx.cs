@@ -27,6 +27,7 @@ namespace ASPDotNetStateManagement
             //count++;
             //ViewState["Clickscount"] = count;
             //Label1.Text = "Click count" + count;
+            Console.WriteLine("This is Way to state Managemaent");
         }
     }
 }
